@@ -17,7 +17,7 @@ app.use(express.json())
  *   Endpoints
  *
  */
-app.get('/', (req: any, res: any) => {
+app.get('/', (req: express.Request, res: express.Response) => {
   res.status(200).json({
     message: 'Success!',
   })
