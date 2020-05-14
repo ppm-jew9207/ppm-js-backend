@@ -1,4 +1,4 @@
-# PPM backend JavaScript, Nodejs, Express, GraphQl
+# Boom PPM backend JavaScript, Nodejs, Express, GraphQl
 
 ## Cloning repository
 ### Using HTTPS
