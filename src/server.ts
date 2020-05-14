@@ -18,12 +18,12 @@ app.use(express.json())
  *   Endpoints
  *
  */
-app.get('/', (req, res) => {
+app.get('/', (req: any, res: any) => {
   res.status(200).json({
     message: 'Success!',
   })
 })
 
 app.listen(process.env.PORT, () => {
-  console.log(`[${process.env.NODE_ENV}] Server is running on port ${process.env.PORT}`)
+  console.log(`[${process.env.NODE_ENV}] Server is running on http://localhost:${process.env.PORT}`)
 })
