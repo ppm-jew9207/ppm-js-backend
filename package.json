@@ -1,0 +1,27 @@
+{
+  "name": "ppm-js-backend",
+  "version": "1.0.0",
+  "description": "PPM organisation project (CRUD) based on js, nodejs, graphql and express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppm-jew9207/ppm-js-backend.git"
+  },
+  "author": "marcus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppm-jew9207/ppm-js-backend/issues"
+  },
+  "homepage": "https://github.com/ppm-jew9207/ppm-js-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
