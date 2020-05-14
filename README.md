@@ -1,4 +1,4 @@
-# PPM backend created using JavaScript, Nodejs, Express and GraphQl
+# PPM backend JavaScript, Nodejs, Express, GraphQl
 
 ## Cloning repository
 ### Using HTTPS
