@@ -2,7 +2,7 @@
   "name": "ppm-js-backend",
   "version": "1.0.0",
   "description": "PPM organisation project (CRUD) based on js, nodejs, graphql and express.",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
