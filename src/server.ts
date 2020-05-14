@@ -1,8 +1,7 @@
-const express = require('express')
-const cors = require('cors')
-const dontenv = require('dotenv')
+require('dotenv').config()
+import express from 'express'
+import cors from 'cors'
 
-dontenv.config()
 const app = express()
 
 /**
