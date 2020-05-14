@@ -4,7 +4,8 @@
   "description": "PPM organisation project (CRUD) based on js, nodejs, graphql and express.",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,10 @@
     "nodemon": "^2.0.3"
   },
   "dependencies": {
+    "@types/node": "^14.0.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "typescript": "^3.9.2"
   }
 }
